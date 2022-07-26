@@ -1,9 +1,13 @@
-# Fabric Example Mod
+# Tradewinds
 
-## Setup
+Tradewinds is a Minecraft mod about market economics and long-distance trade, inspired by trading games like *Taipan!* and *Elite Dangerous*.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Travel between villages, buy and sell goods, and get filthy rich!
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Planned features
+* A simulated market for each village where you can buy and sell goods.
+* Prices of goods vary depending on local supply and demand factors, as well as random events.
+* Villages in different biomes will buy and sell different goods, configurable via datapacks.
+* Higher level villagers will contribute more and better-quality goods to their village.
+* Config options for everything.
+* Integration with other mods like Minecraft Comes Alive.
