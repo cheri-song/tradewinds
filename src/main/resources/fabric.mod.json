@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tradewinds",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Tradewinds",
+  "description": "A Minecraft mod about market economics and long-distance trade.",
   "authors": [
-    "Me!"
+    "Cheri"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/cheri-song/tradewinds"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "CC BY-SA",
+  "icon": "assets/tradewinds/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "cheri.tradewinds.Tradewinds"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "tradewinds.mixins.json"
   ],
 
   "depends": {
