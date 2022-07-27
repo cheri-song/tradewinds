@@ -16,7 +16,7 @@
 			"item": "tradewinds:gold_piece"
 		},
 		"c": {
-			"tag": "c:wooden_chests"
+			"item": "minecraft:chest"
 		},
 		"p": {
 			"tag": "minecraft:planks"

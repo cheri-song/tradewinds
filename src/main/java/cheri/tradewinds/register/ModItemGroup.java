@@ -10,7 +10,7 @@ public class ModItemGroup {
 	// Define item group for creative inventory
 	public static final ItemGroup GENERAL = FabricItemGroupBuilder.create(
 		new Identifier("tradewinds", "general"))
-		.icon(() -> new ItemStack(ModBlocks.MARKET_BOARD))
+		.icon(() -> new ItemStack(ModItems.GOLD_PIECE))
 		.build();
 	
 }

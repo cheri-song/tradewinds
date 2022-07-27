@@ -1,12 +1,8 @@
 {
-    "parent": "minecraft:block/cube",
+    "parent": "minecraft:block/cube_bottom_top",
     "textures": {
-      "particle": "tradewinds:block/market_board/front",
-      "north": "minecraft:block/market_board/front",
-      "south": "minecraft:block/market_board/front",
-      "east": "minecraft:block/market_board/side",
-      "west": "minecraft:block/market_board/side",
-      "up": "minecraft:block/market_board/top",
-      "down": "minecraft:block/market_board/bottom"
+      "top": "tradewinds:block/market_board/top",
+      "bottom": "tradewinds:block/market_board/bottom",
+      "side": "tradewinds:block/market_board/side"
     }
   }
