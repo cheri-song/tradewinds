@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	  "lgl",
+	  "gbg",
+	  "lgl"
+	],
+	"key": {
+	  "b": {
+		"item": "minecraft:beacon"
+	  },
+	  "g": {
+		"item": "tradewinds:gold_piece"
+	  },
+	  "l": {
+		"tag": "minecraft:logs"
+	  }
+	},
+	"result": {
+	  "item": "tradewinds:market_board"
+	}
+  }

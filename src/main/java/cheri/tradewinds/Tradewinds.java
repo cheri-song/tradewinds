@@ -1,11 +1,10 @@
 package cheri.tradewinds;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import cheri.tradewinds.register.ModItems;
+import cheri.tradewinds.register.ModBlocks;
 
 public class Tradewinds implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -17,6 +16,7 @@ public class Tradewinds implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.register();
+		ModBlocks.register();
 
 		LOGGER.info("[Tradewinds] Initialized!");
 	}

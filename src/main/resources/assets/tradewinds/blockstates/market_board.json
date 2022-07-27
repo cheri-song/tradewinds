@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "tradewinds:block/market_board" }
+	}
+}
