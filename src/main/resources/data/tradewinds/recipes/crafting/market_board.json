@@ -1,20 +1,26 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-	  "lgl",
-	  "gbg",
-	  "lgl"
+	  "abg",
+	  "ccc",
+	  "ppp"
 	],
 	"key": {
-	  "b": {
-		"item": "minecraft:beacon"
-	  },
-	  "g": {
-		"item": "tradewinds:gold_piece"
-	  },
-	  "l": {
-		"tag": "minecraft:logs"
-	  }
+		"a": {
+			"item": "minecraft:writable_book"
+		},
+		"b": {
+			"item": "minecraft:beacon"
+		},
+		"g": {
+			"item": "tradewinds:gold_piece"
+		},
+		"c": {
+			"tag": "c:wooden_chests"
+		},
+		"p": {
+			"tag": "minecraft:planks"
+		}
 	},
 	"result": {
 	  "item": "tradewinds:market_board"

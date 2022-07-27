@@ -3,7 +3,7 @@
 	"ingredient": {
 		"item": "tradewinds:gold_piece"
 	},
-	"result": "minecraft:emerald",
+	"result": "minecraft:gold_nugget",
 	"experience": 0.1,
 	"cookingtime": 200
 }
