@@ -1,9 +1,9 @@
 {
-	"type": "smelting",
+	"type": "blasting",
 	"ingredient": {
 		"item": "tradewinds:gold_piece"
 	},
 	"result": "minecraft:emerald",
 	"experience": 0.1,
-	"cookingtime": 200
+	"cookingtime": 100
 }

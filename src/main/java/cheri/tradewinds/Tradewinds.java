@@ -16,7 +16,7 @@ public class Tradewinds implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		ModItems.init();
+		ModItems.register();
 
 		LOGGER.info("[Tradewinds] Initialized!");
 	}

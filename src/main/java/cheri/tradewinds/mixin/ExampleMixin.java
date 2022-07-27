@@ -1,6 +1,6 @@
 package cheri.tradewinds.mixin;
 
-import cheri.tradewinds.Tradewinds;
+// import cheri.tradewinds.Tradewinds;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		Tradewinds.LOGGER.info("This line is printed by an example mod mixin!");
+		// Tradewinds.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

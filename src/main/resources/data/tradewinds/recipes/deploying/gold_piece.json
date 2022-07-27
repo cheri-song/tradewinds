@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:emerald_block"
+      }
+    ],
+    "results": [
+      {
+        "item": "tradewinds:gold_piece"
+      }
+    ]
+  }
