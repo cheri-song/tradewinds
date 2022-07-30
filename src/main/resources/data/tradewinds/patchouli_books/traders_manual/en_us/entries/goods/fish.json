@@ -1,0 +1,12 @@
+{
+	"name": "Fish",
+	"icon": "minecraft:cod",
+	"category": "tradewinds:goods",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "This is a test entry, but it should show up!"
+		}
+	]
+}

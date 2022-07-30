@@ -2,7 +2,7 @@
 
 Tradewinds is a Minecraft mod about market economics and long-distance trade, inspired by trading games like *Taipan!* and *Elite Dangerous*.
 
-Travel between villages, buy and sell goods, and get filthy rich!
+Travel between villages, buy and sell goods, and become a filthy rich merchant prince!
 
 ## Planned features
 * A simulated market for each village where you can buy and sell goods.

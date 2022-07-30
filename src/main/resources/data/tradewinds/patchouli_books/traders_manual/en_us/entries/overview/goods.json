@@ -1,0 +1,16 @@
+{
+	"name": "Goods",
+	"icon": "minecraft:bundle",
+	"category": "tradewinds:overview",
+	"priority": true,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "A $(bold)Good$(), also known as a commodity, is any valuable item worth buying and selling in a $(l:overview/commodity_markets)Commodity Market$().$(p)Almost anything can be considered a Good, but for the purposes of record-keeping (and taxation), the Tradewinds Consortium has created a categorization system which can be found in the $(l:goods)List of Goods$()."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "The price and availability of every Good is affected by $(l:overview/supply_and_demand)Supply and Demand$(). Knowing where to buy Goods cheaply and where to sell them for profit is an essential skill of any trader."
+		}
+	]
+}

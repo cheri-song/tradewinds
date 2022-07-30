@@ -1,0 +1,16 @@
+{
+	"name": "Supply and Demand",
+	"icon": "minecraft:iron_hoe",
+	"category": "tradewinds:overview",
+	"priority": true,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Every merchant knows that the price of a $(l:overview/goods)Good$() is determined by $(bold)Supply and Demand$().$(p)$(bold)Supply$() refers to how much of a $(l:overview/goods)Good$() is available in a $(l:overview/commodity_markets)Commodity Market$(), while $(bold)Demand$() refers to how many people are interested in buying that $(l:overview/goods)Good$().$(p)High Supply will $(bold)decrease$() the price of a $(l:overview/goods)Good$(), while high Demand will $(bold)increase$() it."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "In Tradewinds, each $(l:overview/goods)Good$() has a specific list of factors that can affect its Supply and Demand. These factors can be found in its individual page in the $(l:goods)List of Goods$().$(p)Buying and selling $(l:overview/goods)Goods$() will also affect their Supply in a $(l:overview/commodity_markets)Commodity Market$(). Buying will decrease the Supply of a $(l:overview/goods)Good$(), while selling will increase it."
+		}
+	]
+}

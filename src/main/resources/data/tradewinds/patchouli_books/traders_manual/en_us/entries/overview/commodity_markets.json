@@ -1,0 +1,20 @@
+{
+	"name": "Commodity Markets",
+	"icon": "minecraft:chest",
+	"category": "tradewinds:overview",
+	"priority": true,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "For too long, the villagers of the realm have peddled their wares without any regulation or oversight! Such anarchy will surely lead the economy to ruin!$(p)In the interest of promoting fair and equitable trade, the Tradewinds Consortium has established in each village a central $(bold)Commodity Market$()."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Any village that spawns in the overworld will have its own Commodity Market, as will player-created villages. By interacting with a village's $(l:overview/market_board)Market Board$(), prospective merchants can buy and sell $(l:overview/goods)Goods$() there.$(p)The specific $(l:overview/goods)Goods$() that are available, as well as their prices, are determined by their $(l:overview/supply_and_demand)Supply and Demand$() in that specific market. For example, a desert village is unlikely to sell $(l:goods/fish)Fish$()."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Different villages will have different Commodity Markets and will thus trade $(l:overview/goods)Goods$() at different prices. Exploiting these price differences is key to making money as a merchant!"
+		}
+	]
+}

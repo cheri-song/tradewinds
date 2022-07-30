@@ -1,12 +1,12 @@
 {
 	"block.tradewinds.market_board": "Market Board",
 	"block.tradewinds.market_board.tooltip1": "Displays a village's Commodity Market,",
-	"block.tradewinds.market_board.tooltip2": "where goods can be traded in bulk.",
+	"block.tradewinds.market_board.tooltip2": "where Goods can be traded.",
 
 	"item.tradewinds.market_board": "Market Board",
 	"item.tradewinds.gold_piece": "Gold Piece",
-	"item.tradewinds.gold_piece.tooltip1": "A currency used throughout the realm.",
-	"item.tradewinds.gold_piece.tooltip2": "Trade for goods at a Market Board.",
+	"item.tradewinds.gold_piece.tooltip1": "Currency of the Tradewinds Consortium.",
+	"item.tradewinds.gold_piece.tooltip2": "Trade for Goods at a Market Board.",
 	"itemGroup.tradewinds.general": "Tradewinds",
 
 	"item.tradewinds.traders_manual": "Trader's Manual",
@@ -14,5 +14,5 @@
 	"item.tradewinds.traders_manual.tooltip2": "Read to learn about the mod.",
 	"item.tradewinds.traders_manual.patchouli_not_installed": "Won't work, since Patchouli is not installed.",
 
-	"item.tradewinds.traders_manual.landing_text": "Welcome to Tradewinds, a mod about market economics and long-distance trade."
+	"item.tradewinds.traders_manual.landing_text": "Welcome to $(bold)Tradewinds$(), a mod about market economics and long-distance trade.$(p)Travel between villages, buy and sell goods, and become a filthy rich merchant prince!$(p)Click a category on the right to get started."
 }

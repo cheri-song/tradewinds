@@ -1,0 +1,16 @@
+{
+	"name": "Market Board",
+	"icon": "tradewinds:market_board",
+	"category": "tradewinds:overview",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "The $(bold)Market Board$() is a block that lets you access the $(l:overview/commodity_markets)Commodity Market$() of the village it's in. Simply interact with it to see the $(l:overview/goods)Goods$() that can be bought and sold there.$(p)Note that a Market Board will $(bold)not$() drop itself when broken, even with a Silk Touch tool. Take care not to accidentally destroy one!"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "tradewinds:crafting/market_board",
+			"text": "New Market Boards can be crafted, albeit with a very expensive recipe. Note that this won't create a new $(l:overview/commodity_markets)Commodity Market$() unless you also build a village and populate it with villagers."
+		}
+	]
+}

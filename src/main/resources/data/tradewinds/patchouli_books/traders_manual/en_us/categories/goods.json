@@ -1,0 +1,6 @@
+{
+	"name": "List of Goods",
+	"description": "All the categories of $(l:overview/goods)Goods$() recognized by the Tradewinds Consortium. Items belonging to these categories can be traded on a $(l:overview/commodity_markets)Commodity Market$() and are subject to the vagaries of $(l:overview/supply_and_demand)Supply and Demand$().",
+	"icon": "minecraft:bundle",
+	"sortnum": 1
+}
