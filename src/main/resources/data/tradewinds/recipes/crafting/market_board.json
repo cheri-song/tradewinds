@@ -1,22 +1,22 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-	  "abg",
-	  "ccc",
+	  "cbc",
+	  "wgw",
 	  "ppp"
 	],
 	"key": {
-		"a": {
-			"item": "minecraft:writable_book"
+		"c": {
+			"item": "minecraft:chest"
 		},
 		"b": {
 			"item": "minecraft:beacon"
 		},
+		"w": {
+			"item": "minecraft:writable_book"
+		},
 		"g": {
 			"item": "tradewinds:gold_piece"
-		},
-		"c": {
-			"item": "minecraft:chest"
 		},
 		"p": {
 			"tag": "minecraft:planks"

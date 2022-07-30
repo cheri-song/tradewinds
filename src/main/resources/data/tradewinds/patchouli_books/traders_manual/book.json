@@ -1,0 +1,7 @@
+{
+	"name": "item.tradewinds.traders_manual",
+	"landing_text":"item.tradewinds.traders_manual.landing_text",
+	"subtitle": "Tradewinds ${version}",
+	"dont_generate_book": true,
+	"custom_book_item": "tradewinds:traders_manual"
+}

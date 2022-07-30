@@ -32,5 +32,6 @@
     "java": ">=17"
   },
   "suggests": {
+    "patchouli": "*"
   }
 }
