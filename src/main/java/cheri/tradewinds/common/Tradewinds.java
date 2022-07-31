@@ -62,7 +62,7 @@ public class Tradewinds implements ModInitializer {
 				"Tradewinds Default Datapack", 
 				ResourcePackActivationType.ALWAYS_ENABLED
 				);
-			getPatchouliAPI().setConfigFlag("tradewinds:show_default_goods", true); // this will show the goods even if you log into a different world later that has it off, but i really cba to fix it
+			getPatchouliAPI().setConfigFlag("tradewinds:show_default_goods", true); // this will show patchouli entries even if you later log into a different world that has it off, but i really cba to fix it
 		}
 
 		// Set up the system for loading good types from datapacks
