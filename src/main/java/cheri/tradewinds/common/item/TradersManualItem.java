@@ -1,8 +1,8 @@
-package cheri.tradewinds.item;
+package cheri.tradewinds.common.item;
 
 import java.util.List;
 
-import cheri.tradewinds.Tradewinds;
+import cheri.tradewinds.common.Tradewinds;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

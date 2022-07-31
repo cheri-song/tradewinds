@@ -1,4 +1,4 @@
-package cheri.tradewinds.dependencies;
+package cheri.tradewinds.common.dependencies;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class Dependency {

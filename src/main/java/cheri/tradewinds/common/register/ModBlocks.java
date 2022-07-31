@@ -1,6 +1,6 @@
-package cheri.tradewinds.register;
+package cheri.tradewinds.common.register;
 
-import cheri.tradewinds.block.MarketBoardBlock;
+import cheri.tradewinds.common.block.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Material;

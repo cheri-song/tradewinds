@@ -4,7 +4,6 @@
 	"block.tradewinds.market_board": "Market Board",
 	"block.tradewinds.market_board.tooltip1": "Displays a village's Commodity Market,",
 	"block.tradewinds.market_board.tooltip2": "where Goods can be traded.",
-	"item.tradewinds.market_board": "Market Board",
 
 	"item.tradewinds.silver_piece": "Silver Piece",
 	"item.tradewinds.silver_piece.tooltip1": "Currency of the Tradewinds Consortium.",
@@ -18,6 +17,8 @@
 	"item.tradewinds.traders_manual.tooltip1": "Patchouli guidebook for Tradewinds.",
 	"item.tradewinds.traders_manual.tooltip2": "Read to learn about the mod.",
 	"item.tradewinds.traders_manual.patchouli_not_installed": "Won't work, since Patchouli is not installed.",
+	"item.tradewinds.traders_manual.landing_text": "Welcome to $(bold)Tradewinds$(), a mod about market economics and long-distance trade.$(p)Travel between villages, buy and sell goods, and become a filthy rich merchant prince!$(p)Click a category on the right to get started.",
 
-	"item.tradewinds.traders_manual.landing_text": "Welcome to $(bold)Tradewinds$(), a mod about market economics and long-distance trade.$(p)Travel between villages, buy and sell goods, and become a filthy rich merchant prince!$(p)Click a category on the right to get started."
+	"good_type.tradewinds.grain": "Grain",
+	"good_type.tradewinds.grain.desc": "blah blah blah"
 }

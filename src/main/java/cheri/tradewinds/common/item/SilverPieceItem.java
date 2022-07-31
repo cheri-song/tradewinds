@@ -1,4 +1,4 @@
-package cheri.tradewinds.item;
+package cheri.tradewinds.common.item;
 
 import java.util.List;
 

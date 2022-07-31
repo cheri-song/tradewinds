@@ -1,4 +1,4 @@
-package cheri.tradewinds.register;
+package cheri.tradewinds.common.register;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

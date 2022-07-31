@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "patchouli:text",
-			"text": "For too long, the villagers of the realm have peddled their wares without any regulation or oversight! Such anarchy will surely lead the economy to ruin!$(p)In the interest of promoting fair and equitable trade, the Tradewinds Consortium has established in each village a central $(bold)Commodity Market$()."
+			"text": "For too long, the villagers of the realm have peddled their wares without any regulation or oversight! Such anarchy will surely drive the economy to ruin!$(p)In the interest of promoting fair and equitable trade, the Tradewinds Consortium has established in each village a central $(bold)Commodity Market$()."
 		},
 		{
 			"type": "patchouli:text",

@@ -1,8 +1,6 @@
-package cheri.tradewinds.register;
+package cheri.tradewinds.common.register;
 
-import cheri.tradewinds.item.GoldPieceItem;
-import cheri.tradewinds.item.SilverPieceItem;
-import cheri.tradewinds.item.TradersManualItem;
+import cheri.tradewinds.common.item.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

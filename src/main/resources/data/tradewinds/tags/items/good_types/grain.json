@@ -1,0 +1,11 @@
+{
+	"values": [
+		"minecraft:wheat",
+		"minecraft:potato",
+		"#c:vegetables/soybeans",
+		"#c:vegetables/sweetpotatos",
+		"#c:vegetables/yams",
+        "#c:grain",
+        "#c:grains"
+	]
+}
