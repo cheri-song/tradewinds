@@ -1,0 +1,25 @@
+{
+	"name": "Coinage",
+	"icon": "tradewinds:silver_piece",
+	"category": "tradewinds:overview",
+	"extra_recipe_mappings": {
+		"tradewinds:silver_piece": 1,
+		"tradewinds:gold_piece": 2
+	},
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "$(bold)Gold and Silver Pieces$() are a form of currency that has been stamped and approved by the Tradewinds Consortium.$(p)These coins have been minted from special alloys and are impossible to counterfeit with a crafting table. Unlike emeralds and diamonds, they will not fall in value if new gemstone deposits are discovered."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "tradewinds:silver_piece",
+			"text": "As such, they make an exceptionally stable medium for regional trade, and are the only currency that will be universally accepted in a $(l:overview/commodity_markets)Commodity Market$().$(p)The $(bold)Silver Piece$() is a low-value coin suitable for everyday transactions."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "tradewinds:gold_piece",
+			"text": "For large transactions or bulk storage, 64 Silver Pieces can be converted to one $(bold)Gold Piece$() and vice versa at any $(l:overview/market_board)Market Board$()."
+		}
+	]
+}
