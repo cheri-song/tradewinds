@@ -2,6 +2,7 @@
 	"name": "Flora",
 	"icon": "minecraft:poppy",
 	"category": "tradewinds:goods",
+	"flag": "tradewinds:show_default_goods",
 	"read_by_default": true,
 	"pages": [
 		{

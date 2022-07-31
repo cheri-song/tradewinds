@@ -2,6 +2,7 @@
 	"name": "Iron",
 	"icon": "minecraft:iron_ingot",
 	"category": "tradewinds:goods",
+	"flag": "tradewinds:show_default_goods",
 	"read_by_default": true,
 	"pages": [
 		{

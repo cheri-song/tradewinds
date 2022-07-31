@@ -2,6 +2,7 @@
 	"name": "Exotic Items",
 	"icon": "minecraft:ender_eye",
 	"category": "tradewinds:goods",
+	"flag": "tradewinds:show_default_goods",
 	"read_by_default": true,
 	"pages": [
 		{

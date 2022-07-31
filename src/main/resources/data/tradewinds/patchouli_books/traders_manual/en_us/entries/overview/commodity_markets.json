@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "patchouli:text",
-			"text": "Any village that spawns in the overworld will have its own Commodity Market, as will player-created villages. By interacting with a village's $(l:overview/market_board)Market Board$(), prospective merchants can buy and sell $(l:overview/goods)Goods$() there.$(p)The specific $(l:overview/goods)Goods$() that are available, as well as their prices, are determined by their $(l:overview/supply_and_demand)Supply and Demand$() in that specific market. For example, a desert village is unlikely to sell $(l:goods/fish)Fish$()."
+			"text": "Any village that spawns in the overworld will have its own Commodity Market, as will player-created villages. By interacting with a village's $(l:overview/market_board)Market Board$(), prospective merchants can buy and sell $(l:overview/goods)Goods$() there.$(p)The specific $(l:overview/goods)Goods$() that are available, as well as their prices, are determined by their $(l:overview/supply_and_demand)Supply and Demand$() in that specific market. For example, a desert village is unlikely to sell fish."
 		},
 		{
 			"type": "patchouli:text",

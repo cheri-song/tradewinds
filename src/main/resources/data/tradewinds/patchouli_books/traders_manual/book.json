@@ -6,5 +6,6 @@
 	"subtitle": "Tradewinds ${version}",
 	"dont_generate_book": true,
 	"custom_book_item": "tradewinds:traders_manual",
+	"i18n": true,
 	"show_toasts": false
 }

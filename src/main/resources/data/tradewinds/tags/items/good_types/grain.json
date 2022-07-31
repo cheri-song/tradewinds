@@ -2,10 +2,10 @@
 	"values": [
 		"minecraft:wheat",
 		"minecraft:potato",
-		"#c:vegetables/soybeans",
-		"#c:vegetables/sweetpotatos",
-		"#c:vegetables/yams",
-        "#c:grain",
-        "#c:grains"
+		{"id": "#c:vegetables/soybeans", "required": false},
+		{"id": "#c:vegetables/sweetpotatos", "required": false},
+		{"id": "#c:vegetables/yams", "required": false},
+		{"id": "#c:grain", "required": false},
+		{"id": "#c:grains", "required": false}
 	]
 }

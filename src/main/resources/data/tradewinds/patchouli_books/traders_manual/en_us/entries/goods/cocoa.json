@@ -2,6 +2,7 @@
 	"name": "Cocoa",
 	"icon": "minecraft:cocoa_beans",
 	"category": "tradewinds:goods",
+	"flag": "tradewinds:show_default_goods",
 	"read_by_default": true,
 	"pages": [
 		{

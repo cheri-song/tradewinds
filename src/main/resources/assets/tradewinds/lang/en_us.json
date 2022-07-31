@@ -1,5 +1,6 @@
 {
 	"itemGroup.tradewinds.general": "Tradewinds",
+	"config.tradewinds": "Tradewinds Config",
 
 	"block.tradewinds.market_board": "Market Board",
 	"block.tradewinds.market_board.tooltip1": "Displays a village's Commodity Market,",

@@ -2,7 +2,7 @@ package cheri.tradewinds.common.item;
 
 import java.util.List;
 
-import cheri.tradewinds.common.Tradewinds;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -27,7 +27,7 @@ public class TradersManualItem extends Item {
 	@Override
 	public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
 		tooltip.add( new TranslatableText("item.tradewinds.traders_manual.tooltip1").formatted(Formatting.DARK_GRAY) );
-		if (Tradewinds.patchouli.isLoaded()) {
+		if (FabricLoader.getInstance().isModLoaded("patchouli")) {
 			tooltip.add( new TranslatableText("item.tradewinds.traders_manual.tooltip2").formatted(Formatting.DARK_GRAY) );
 		} else {
 			tooltip.add(new TranslatableText("item.tradewinds.traders_manual.patchouli_not_installed").formatted(Formatting.RED));
@@ -40,7 +40,7 @@ public class TradersManualItem extends Item {
 
 		ItemStack stack = user.getStackInHand(hand);
 
-		if (user instanceof ServerPlayerEntity && Tradewinds.patchouli.isLoaded()) {
+		if (user instanceof ServerPlayerEntity && FabricLoader.getInstance().isModLoaded("patchouli")) {
             ServerPlayerEntity player = (ServerPlayerEntity) user;
 			PatchouliAPI.get().openBookGUI(player, Registry.ITEM.getId(this));
 		}

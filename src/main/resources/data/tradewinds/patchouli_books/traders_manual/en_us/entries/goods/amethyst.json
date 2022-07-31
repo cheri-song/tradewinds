@@ -2,6 +2,7 @@
 	"name": "Amethyst",
 	"icon": "minecraft:amethyst_shard",
 	"category": "tradewinds:goods",
+	"flag": "tradewinds:show_default_goods",
 	"read_by_default": true,
 	"pages": [
 		{

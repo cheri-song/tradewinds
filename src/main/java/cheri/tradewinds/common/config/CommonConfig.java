@@ -12,27 +12,32 @@ import static com.google.common.collect.ImmutableList.of;
 
 public class CommonConfig extends Config {
 
-	// General Config Group
-	public static final ConfigItemGroup GENERAL_GROUP = new GeneralConfigItemGroup();
+	// Advanced Config Group
+	public static final ConfigItemGroup ADVANCED = new AdvancedConfigItemGroup();
 
-	public static class GeneralConfigItemGroup extends ConfigItemGroup {
+	public static class AdvancedConfigItemGroup extends ConfigItemGroup {
 
-		// nothing lol
+		public static final BooleanConfigItem USE_DEFAULT_DATAPACK = new BooleanConfigItem(
+			"use_default_datapack", 
+			true, 
+			"Use default datapack? (requires restart)"
+			);
 
 		// build general config group
-		public GeneralConfigItemGroup() {
+		public AdvancedConfigItemGroup() {
 			super(of(
-				), "general");
+				USE_DEFAULT_DATAPACK
+				), "advanced");
 		}
 	}
 
 	// Build list of all config groups
-	public static final List<ConfigItemGroup> configs = of(
-		GENERAL_GROUP
+	public static final List<ConfigItemGroup> CONFIGS = of(
+		ADVANCED
 		);
 
 	public CommonConfig() {
 		// Associate configs to file
-		super(configs, new File(FabricLoader.getInstance().getConfigDir().toFile(), "tradewinds.json"), "tradewinds");
+		super(CONFIGS, new File(FabricLoader.getInstance().getConfigDir().toFile(), "tradewinds-common.json"), "tradewinds");
 	}
 }

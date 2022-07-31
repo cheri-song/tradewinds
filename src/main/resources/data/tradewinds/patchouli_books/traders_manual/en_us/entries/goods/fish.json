@@ -2,6 +2,7 @@
 	"name": "Fish",
 	"icon": "minecraft:cod",
 	"category": "tradewinds:goods",
+	"flag": "tradewinds:show_default_goods",
 	"read_by_default": true,
 	"pages": [
 		{

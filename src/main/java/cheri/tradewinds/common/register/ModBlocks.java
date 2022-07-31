@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-  public static final MarketBoardBlock MARKET_BOARD = new MarketBoardBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f));
+	public static final MarketBoardBlock MARKET_BOARD = new MarketBoardBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f));
 
 	public static void register() {
 		Registry.register(Registry.BLOCK, new Identifier("tradewinds", "market_board"), MARKET_BOARD);
